@@ -15,5 +15,5 @@ Run the following command
         --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
         --volume="/home/$USER/.heidisql/portable_settings.txt:/home/wine/portable_settings.txt" \
         --net="host" \
-    Bartixxx32/docker-heidisql
+    bartixxx32/docker-heidisql
     
