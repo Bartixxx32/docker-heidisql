@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
 
 RUN mkdir -m 777 /home/wine && \
     cd /home/wine && \
-    wget https://www.heidisql.com/downloads/releases/HeidiSQL_10.0_32_Portable.zip && \
+    wget http://www.heidisql.com/downloads/releases/HeidiSQL_10.0_32_Portable.zip && \
     unzip /home/wine/HeidiSQL_10.0_32_Portable.zip && \
     chmod -R 777 /home/wine
 
